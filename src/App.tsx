@@ -7,7 +7,6 @@ export default function App() {
   return (
     <BrowserRouter>
       <nav className="p-4 bg-gray-100 flex gap-4">
-        <Link to="/">Productos</Link>
         <Link to="/posts">Posts</Link>
       </nav>
       <Routes>
